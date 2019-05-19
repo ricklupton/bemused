@@ -2,9 +2,10 @@
 Changelog
 =========
 
-Version 0.1
+Version 0.2
 ===========
 
-- Feature A added
-- FIX: nasty bug #1729 fixed
-- add your changes here!
+First release as *bemused*. This code was previously on Github under the name
+"`py\-bem`_".
+
+.. _py-bem: https://github.com/ricklupton/py-bem

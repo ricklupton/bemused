@@ -53,11 +53,12 @@ help:
 clean:
 	rm -rf $(BUILDDIR)/* $(AUTODOCDIR)
 
-$(AUTODOCDIR): $(MODULEDIR)
-	mkdir -p $@
-	$(AUTODOCBUILD) -f -o $@ $^
+# $(AUTODOCDIR): $(MODULEDIR)
+# 	mkdir -p $@
+# 	$(AUTODOCBUILD) -f -o $@ $^
 
-doc-requirements: $(AUTODOCDIR)
+doc-requirements:
+# $(AUTODOCDIR)
 
 html: doc-requirements
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
