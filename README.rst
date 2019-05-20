@@ -16,5 +16,5 @@ Documentation
 Documentation is available `here`_.
 
 .. _Blade Element Momentum (BEM): https://en.wikipedia.org/wiki/Blade_element_momentum_theory
-.. _this blog post: https://ricklupton.name/2019/TBC
+.. _this blog post: https://www.ricklupton.name/2019/introducing-bemused/
 .. _here: https://bemused.readthedocs.io/
