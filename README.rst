@@ -8,6 +8,12 @@ modelling wind turbine (or other rotor) aerodynamics and loads.
 Getting started
 ---------------
 
+To install *bemused*:
+
+.. code:: shell
+
+   pip install bemused
+
 See `this blog post`_ for an introduction to how to use this package.
 
 Documentation
