@@ -11,8 +11,8 @@ related paper`_.
 
 To use it you need to create a :class:`bemused.Blade` object defining your blade
 parameters (chord, twist and thickness) and an :class:`bemused.AerofoilDatabase`
-containing lift and drag coefficients. You can then use
-:class:`bemused.BEMModel` to do the calculations.
+containing lift and drag coefficients (see :ref:`aerofoil_database`). You can
+then use :class:`bemused.BEMModel` to do the calculations.
 
 Contents
 ========
@@ -20,6 +20,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   Defining aerofoil data <aerofoil_database>
    License <license>
    Authors <authors>
    Changelog <changelog>

@@ -126,6 +126,8 @@ class AerofoilDatabase(object):
     Each aerofoil is an array with `alpha`, `CL`, `CD` and `CM`
     columns, where the angles are in radians.
 
+    See :ref:`aerofoil_database` for more details.
+
     """
     def __init__(self, filename):
         self.filename = filename
